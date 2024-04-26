@@ -53,25 +53,28 @@
             android:inputType="textPassword"
             android:textColorHint="#ffffff" />
     </com.google.android.material.textfield.TextInputLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        android:layout_gravity="center">
+        android:orientation="horizontal">
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Criar conta"
-            android:textSize="20dp"
+            android:layout_marginRight="20dp"
             android:backgroundTint="#F7A597"
-            android:layout_marginRight="20dp" />
+            android:text="Criar conta"
+            android:textSize="20dp" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="#F7A597"
             android:text="Login"
-            android:textSize="20dp"
-            android:backgroundTint="#F7A597"/>
+            android:textSize="20dp" />
     </LinearLayout>
 
 </LinearLayout>
